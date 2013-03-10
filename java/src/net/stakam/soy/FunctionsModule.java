@@ -12,5 +12,6 @@ public class FunctionsModule extends AbstractModule
         Multibinder.newSetBinder(binder(), SoyFunction.class); 
 
     soyFunctionsSetBinder.addBinding().to(Substring.class); 
+    soyFunctionsSetBinder.addBinding().to(FormatNumberWithComma.class); 
   } 
 }

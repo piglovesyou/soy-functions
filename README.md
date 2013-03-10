@@ -1,18 +1,26 @@
 #Soy Functions.
 
-Function Plugins for Closure Templates as known as Soy.
+Additional functions for Closure Templates a.k.a. Soy.
 
-To setup:
-  $ ./run.sh setup
+To setup and build, run:
+```
+$ ./run.sh setup && ./run.sh build
+```
 
-To build:
-  $ ./run.sh build
 
 To test:
-  $ ./run.sh test
+```
+$ ./run.sh test
+```
 
-To create example templates for JavaScript:
-  $ ./run.sh example-js
 
-To create example templates for Java:
-  XXX: Not implemented yet.
+To create JavaScript templates example soy file:
+```
+$ ./run.sh example-js
+```
+
+
+To create Java templates example soy file:
+```
+XXX: Not implemented yet.
+```

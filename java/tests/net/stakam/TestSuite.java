@@ -10,6 +10,7 @@ public class TestSuite {
     JUnitCore runner = new JUnitCore();
     runner.addListener(new TextListener(System.out));
     runner.run(
-            SubstringTest.class); 
+            SubstringTest.class,
+            FormatNumberWithCommaTest.class); 
   }
 }

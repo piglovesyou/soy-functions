@@ -1,9 +1,16 @@
 
-{namespace examples.simple}
+{namespace examples}
 
 /**
  * @param str
  */
-{template .substring}
+{template .exampleSubstring}
   Yeah, {substring($str, 2, 4)} !!!
+{/template}
+
+/**
+ * @param num
+ */
+{template .exampleFormatNumberWithComma}
+  Pay {formatNumberWithComma($num)} dollars!
 {/template}
