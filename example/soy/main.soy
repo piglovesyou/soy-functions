@@ -14,3 +14,11 @@
 {template .exampleFormatNumberWithComma}
   Pay {formatNumberWithComma($num)} dollars!
 {/template}
+
+/**
+ * @param arg1
+ * @param arg2
+ */
+{template .exampleLiteralApply}
+  Call JavaScript function, {literalApply(my.js.util, [$arg1, $arg2])}.
+{/template}

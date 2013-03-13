@@ -11,6 +11,8 @@ public class TestSuite {
     runner.addListener(new TextListener(System.out));
     runner.run(
             SubstringTest.class,
-            FormatNumberWithCommaTest.class); 
+            FormatNumberWithCommaTest.class,
+            LiteralApplyTest.class
+            ); 
   }
 }

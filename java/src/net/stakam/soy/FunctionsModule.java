@@ -13,5 +13,6 @@ public class FunctionsModule extends AbstractModule
 
     soyFunctionsSetBinder.addBinding().to(Substring.class); 
     soyFunctionsSetBinder.addBinding().to(FormatNumberWithComma.class); 
+    soyFunctionsSetBinder.addBinding().to(LiteralApply.class); 
   } 
 }
